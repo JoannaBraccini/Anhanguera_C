@@ -26,3 +26,39 @@ int main()
 %s -> Exibe/lê uma sequência de caracteres (string)
 %e -> Exibe/lê um número em notação científica
  */
+
+#include <stdio.h>
+
+int main()
+{
+
+    int num;
+    printf("Digite um número: ");
+    scanf("%d", &num);
+    printf("Você digitou: %d", num);
+    system("pause");
+
+    return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+
+    float num1, num2, media;
+
+    printf("Digite o primeiro numero: ");
+
+    scanf("%f", &num1);
+
+    printf("Digite o segundo numero: ");
+
+    scanf("%f", &num2);
+
+    media = (num1 + num2) / 2;
+
+    printf("Media = %.2f", media);
+
+    return 0;
+}
