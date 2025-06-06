@@ -1,5 +1,3 @@
-# Anhanguera-C
-
 Repositório de estudos em Linguagem C, organizado em quatro módulos. Cada módulo contém exercícios, exemplos de código e materiais de apoio utilizados nas aulas.
 
 ## Estrutura dos Módulos
